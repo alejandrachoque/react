@@ -1,0 +1,12 @@
+nav a{
+    margin-left: 15px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+nav a:hover{
+    background-color: #379de0;
+    color: black;
+    transform: scale(1.05)
+    /* Anima el cambio de color y tamaño durante 0.3 segundos */
+    
+}

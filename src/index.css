@@ -109,3 +109,20 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+/*nuevos estilos*/
+footer{
+  background-color: rgb(11, 11, 67);
+  padding: 15px;
+}
+#contenedorCard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card{
+  border:1px solid black;
+    padding:20px;
+    margin:20px;
+    border-radius:10px;
+    width:250px;
+}

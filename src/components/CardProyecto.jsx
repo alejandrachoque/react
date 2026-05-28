@@ -1,18 +1,19 @@
 import './CardProyecto.css'
-const CardProyecto = ({ proyecto }) => {
-
+const CardProyecto = ({proyecto, seleccionarProyecto}) => {
+const {titulo,categoria,estado}=proyecto;
     return (
         <div className="card">
 
-            <h3>Titulo: {proyecto.titulo}</h3>
+            <h3>Titulo: {titulo}</h3>
 
-            <p>Categoria: {proyecto.categoria}</p>
+            <p>Categoria: {categoria}</p>
 
             <p>
-               Estado: {proyecto.estado ? 'Activo' : 'Inactivo'}
+               Estado: {estado ? 'Activo' : 'Inactivo'}
             </p>
-
+            
             <button>Eliminar</button>
+           <button onClick={() => seleccionarProyecto(proyecto)}>Ver detalle</button>
 
         </div>
     )

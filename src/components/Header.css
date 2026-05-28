@@ -1,8 +1,5 @@
-.header {
+header {
     text-align: center;
-}
-
-.header-img {
-    width: 200px;
-    border-radius: 20px;
+    background-color: rgb(11, 11, 67);
+    padding: 10px;
 }

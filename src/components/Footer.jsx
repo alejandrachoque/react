@@ -1,8 +1,8 @@
 const Footer=()=>{
     return(
-        <div>
+        <footer>
             <p>Programación Visual 2026</p>
-        </div>
+        </footer>
     )
 }
 export default Footer;
